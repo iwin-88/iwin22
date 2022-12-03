@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background: url(./img/banner/banner2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .link .images img,
+.app-link .images img,
+.about-game .images img{
+    transition: transform 0.2s;
+}
+header .link .images img:hover,
+.app-link .images img:hover,
+.about-game .images img:hover{
+    transform: scale(1.1);
+}
